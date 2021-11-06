@@ -1,0 +1,555 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#exp__section {
+	background-color: #fff;
+	height: 133vh;
+	width: 100%;
+	display: inline-block;
+	justify-content: center;
+	align-items: center;
+}
+
+.h1__exp {
+	height: 20vh;
+	width: 100%;
+	background-color: #202020;
+	text-align: center;
+	justify-content: center;
+} 
+
+.h1__exp h1 {
+	font-size: 2rem;
+	color: #fff;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	padding-top: 4%;
+}
+
+.img__acc__exp {
+	width: 99%;
+	height: 100vh;
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.img__exp {
+
+	flex: 1;
+	height: 100%;
+	cursor: pointer;
+	transition: all 0.3s;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border: 1px solid #222;
+	position: relative;
+	filter: brightness(80%);
+
+}
+
+.pancingan{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	background-color: transparent;
+	margin-right: auto;
+	margin-left: auto;
+	padding: none;
+
+}
+
+.img1 {
+	background-image: url(/folder/img/exp/1.jpg);
+}
+
+.img2 {
+	background-image: url(/folder/img/exp/2.jpg);
+}
+
+.img3 {
+	background-image: url(/folder/img/exp/3.jpg);
+}
+
+.img4 {
+	background-image: url(/folder/img/exp/4.jpg);
+}
+
+.img5 {
+	background-image: url(/folder/img/exp/5.jpg);
+}
+
+.img6 {
+	background-image: url(/folder/img/exp/55.jpg);
+}
+
+.head {
+	text-align: center;
+	position: relative;
+	left: auto;
+	right: auto;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	transform-origin: 0% 0%;
+	transition: all 0.3s;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	white-space: nowrap;
+}
+
+
+.svg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -27rem;
+	padding: 10px;
+	transition: all 0.3s;
+	width: 14vh;
+	height: 14vh;
+}
+
+.desc {
+	margin-top: 20px;
+	display: none;
+	text-align: center;
+	font-size: 13px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	color: white;
+}
+
+.img__acc__exp:hover .img {
+	transform: skew(0);
+	filter: brightness(100%);
+}
+/* 
+.img1:hover {
+	transform: skew(0);
+	filter: brightness(70%);
+}
+.img2:hover {
+	transform: skew(0);
+	filter: brightness(70%);
+}
+.img3:hover {
+	transform: skew(0);
+	filter: brightness(70%);
+}
+.img4:hover  {
+	transform: skew(0);
+	filter: brightness(70%);
+}
+.img5:hover  {
+	transform: skew(0);
+	filter: brightness(70%);
+}
+.img6:hover {
+	transform: skew(0);
+	filter: brightness(70%);
+} */
+
+.img__exp:hover {
+	flex: 5;
+}
+
+
+.img__exp:hover .desc {
+	display: block;
+}
+
+.img__exp:hover .svg {
+	margin-top: -75vh;
+}
+
+.img__exp:hover .pancingan {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.img__exp:hover .head {
+	left: auto;
+	right: auto;
+	color: #fff;
+	transform: rotate(0deg);
+	background-color: transparent;
+}
+
+
+
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/* 
+
+
+@media (max-width: 640px) {
+		
+	.h1__exp {
+		height: 12vh;
+	} 
+
+	.h1__exp h1 {
+		font-size: 1.5rem;
+		margin-top: 5vh;
+	}
+
+		
+	.img__acc__exp {
+		width: 99%;
+		height: 55vh;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.img__exp {
+
+		height: 100%;
+		cursor: auto;
+		position: relative;
+		filter: brightness(80%);
+		border-top: 1px solid #C0C0C0;
+
+	}
+
+		
+	.pancingan{
+		width: 100%;
+		height: 100%;
+		display: block;
+		background-color: transparent;
+		margin-right: auto;
+		margin-left: auto;
+		padding: none;
+		background-color: rgba(0, 0, 0, 0.6);
+
+	}
+
+
+		
+	.head {
+		text-align: center;
+		position: relative;
+		left: auto;
+		right: auto;
+		padding: 10px;
+		background-color: rgba(0, 0, 0, 0.0);
+	}
+
+
+	.svg {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -22rem;
+		padding: 10px;
+		transition: all 0.3s;
+		width: 15vh;
+		height: 15vh;
+	}
+
+	.desc {
+		margin-top: 20px;
+		display: block;
+		text-align: center;
+		font-size: 12px;
+	}
+
+
+		
+	.img__acc__exp:hover .img {
+		transform: skew(0);
+		cursor: pointer;
+	}
+
+
+
+	.img__exp:hover {
+		flex: 5;
+	}
+
+
+	.img__exp:hover .desc {
+		display: block;
+	}
+
+	.img__exp:hover .svg {
+		margin-top: -23rem;
+	}
+
+	.img__exp:hover .pancingan {
+		background-color: rgba(0, 0, 0, 0.6);
+	}
+
+	.img__exp:hover .head {
+		left: auto;
+		right: auto;
+		color: #fff;
+		transform: rotate(0deg);
+		background-color: transparent;
+	}
+
+
+
+}
+
+
+
+
+ */
+
+
+
+@media screen and (max-width: 1060px){
+			
+
+	
+	#exp__section {
+		height: 355vh;
+		border-bottom: 3rem solid#fff;
+	}
+
+	.h1__exp {
+		height: 20vh;
+	} 
+
+	.h1__exp h1 {
+		font-size: 3rem;
+		padding-top: 10%;
+	}
+
+		
+	.img__acc__exp {
+		width: 99%;
+		height: 55vh;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.img__exp {
+
+		height: 100%;
+		cursor: auto;
+		position: relative;
+		filter: brightness(80%);
+		border-top: 1px solid #C0C0C0;
+
+	}
+
+		
+	.pancingan{
+		width: 100%;
+		height: 100%;
+		display: block;
+		background-color: transparent;
+		margin-right: auto;
+		margin-left: auto;
+		padding: none;
+		background-color: rgba(0, 0, 0, 0.6);
+
+	}
+
+
+		
+	.head {
+		text-align: center;
+		position: relative;
+		left: auto;
+		right: auto;
+		padding: 10px;
+		background-color: rgba(0, 0, 0, 0.0);
+		font-size: 2rem;
+	}
+
+
+	.svg {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -60%;
+		padding: 10px;
+		transition: all 0.3s;
+	}
+
+	.desc {
+		margin-top: 20px;
+		display: block;
+		text-align: center;
+		font-size: 20px;
+	}
+
+
+		
+	.img__acc__exp:hover .img {
+		transform: skew(0);
+		cursor: pointer;
+	}
+
+
+
+	.img__exp:hover {
+		flex: 5;
+	}
+
+
+	.img__exp:hover .desc {
+		display: block;
+	}
+
+	.img__exp:hover .svg {
+		margin-top: -60%;
+	}
+
+	.img__exp:hover .pancingan {
+		background-color: rgba(0, 0, 0, 0.6);
+	}
+
+	.img__exp:hover .head {
+		left: auto;
+		right: auto;
+		color: #fff;
+		transform: rotate(0deg);
+		background-color: transparent;
+	}
+
+}
+
+
+
+  @media screen and (max-width: 768px){
+
+	#exp__section {
+		height: 352vh;
+		background-color: #fff;
+	}
+			
+	.h1__exp {
+		height: 20vh;
+	} 
+
+	.h1__exp h1 {
+		font-size: 1.5rem;
+		padding-top: 15%;
+	}
+
+		
+	.img__acc__exp {
+		width: 100%;
+		height: 55vh;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.img__exp {
+
+		height: 100%;
+	
+		cursor: auto;
+		position: relative;
+		filter: brightness(80%);
+		border-top: 1px solid #C0C0C0;
+
+	}
+
+		
+	.pancingan{
+		width: 100%;
+		height: 100%;
+		display: block;
+		background-color: transparent;
+		margin-right: auto;
+		margin-left: auto;
+		padding: none;
+		background-color: rgba(0, 0, 0, 0.6);
+
+	}
+
+
+		
+	.head {
+		text-align: center;
+		position: relative;
+		left: auto;
+		right: auto;
+		padding: 10px;
+		background-color: rgba(0, 0, 0, 0.0);
+		font-size: 1rem;
+	}
+
+
+	.svg {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -22rem;
+		padding: 10px;
+		transition: all 0.3s;
+		width: 15vh;
+		height: 15vh;
+	}
+
+	.desc {
+		margin-top: 20px;
+		display: block;
+		text-align: center;
+		font-size: 12px;
+	}
+
+
+		
+	.img__acc__exp:hover .img {
+		transform: skew(0);
+		cursor: pointer;
+	}
+
+
+
+	.img__exp:hover {
+		flex: 5;
+	}
+
+
+	.img__exp:hover .desc {
+		display: block;
+	}
+
+	.img__exp:hover .svg {
+		margin-top: -23rem;
+	}
+
+	.img__exp:hover .pancingan {
+		background-color: rgba(0, 0, 0, 0.6);
+	}
+
+	.img__exp:hover .head {
+		left: auto;
+		right: auto;
+		color: #fff;
+		transform: rotate(0deg);
+		background-color: transparent;
+	}
+
+  }
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* 
+
+
+
+

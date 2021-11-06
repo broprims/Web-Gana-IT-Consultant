@@ -1,0 +1,601 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: green;
+}
+
+
+#head__client {
+    height: 20vh;
+    width: 100%;
+    background: #202020;
+    background-position: right;
+    filter: brightness(105%);
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#head__client h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 8vh;
+}
+
+
+
+#client__section {
+    height: 250vh;
+    width: 100%;
+    background-image: url(/folder/img/client2/bgclient.jpg);
+    background-position: center;
+    background-size: cover;
+    /* display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 70px;
+    justify-content: center; */
+    padding: 7rem 8rem;
+}
+
+
+.img__position {
+    margin-left: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.client:nth-child(even) > .img__position {
+    order: 2;
+    margin-left: 0rem;
+}
+
+.client2 > .text__client {
+    margin-left: 18rem;
+}
+
+
+.client6 > .text__client {
+    margin-left: 21rem;
+}
+
+.client {
+    height: 9rem;
+    width: 45rem;
+    background-color:#fff;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 5rem;
+
+    transition-delay: 4s;
+}
+
+.client:nth-child(even) {
+    float: right;
+    justify-content: right;
+    text-align: right;
+    background-color: #fff;
+}
+
+.client2 {
+    align-items: right;
+}
+
+.client:nth-child(even) .shape {
+    justify-content: right;
+    text-align: right;
+    margin-right: 2rem;
+}
+
+.shape {
+    height: 100px;
+    width: 100px;
+    background-color: #E0E0E0;
+    border-radius: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.imgnya__client {
+    height: 60px;
+    width: 60px;
+}
+
+
+.text__client {
+    margin: auto  1rem ;
+    color: #202020;
+}
+
+.text__client .title_client {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 0px;
+}
+
+.text__client .paragraf:nth-child(1) {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.text__client .paragraf:nth-last-child(1) {
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/* 
+@media (max-width: 640px) {
+
+    .client{
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+        
+    #head__client {
+        height: 20vh;
+        width: 100%;
+        background-size: auto;
+        margin-top: 55vh;
+    }
+
+    #head__client h1 {
+        font-size: 2rem;
+        padding-top: 7vh;
+    }
+    
+    .img__position {
+        margin-left: 1rem;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+
+    .client:nth-child(even) {
+        text-align: center;
+        float: none;
+        background-color: #fff;
+    }
+        
+
+    #client__section {
+        height: auto;
+        width: 100%;
+        padding: 5rem 0 2rem 0;
+    }
+
+
+    .client2  .title_client {
+        margin-left: 0rem;
+    }
+
+
+    .client6  .text__client {
+        margin-left: 0rem;
+    }
+
+    .client {
+        height: 7rem;
+        width: 20rem;
+        background-color:#fff;
+        display: flex;
+        border-radius: 10px;
+        margin-bottom: 3rem;
+    }
+
+
+
+
+
+
+
+
+
+        
+    .client:nth-child(even) .shape {
+        justify-content: right;
+        text-align: right;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .shape {
+        height: 80px;
+        width: 80px;
+        padding: 10px;
+    }
+
+
+    .imgnya__client {
+        height: 60px;
+        width: 60px;
+    }
+
+
+    .text__client {
+        margin: auto 0 ;
+        margin-left: 1rem;
+        color: #202020;
+    }
+
+    .text__client .title_client {
+        font-size: 0.8rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .title_client{
+        font-size: 2rem;
+        padding: -6px 0 ;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .text__client .paragraf:nth-child(1) {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+    }
+
+    .text__client .paragraf:nth-last-child(1) {
+        font-size: 10px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1060px){
+    
+
+    
+    #head__client {
+        height: 15vh;
+        width: 100%;
+       
+        justify-content: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #head__client h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 2rem;
+        color: #fff;
+        padding-top: 7vh;
+    }
+    
+    
+    
+    #client__section {
+        height: auto;
+        width: 100%;
+       
+        padding: 7rem 2rem;
+    }
+    
+    
+    .img__position {
+        margin-left: 2.5rem;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    
+    
+    .client:nth-child(even) > .img__position {
+        order: 2;
+        margin-left: 0rem;
+    }
+    
+    .client2 > .text__client {
+        margin-left: 11rem;
+    }
+
+    .client4 > .text__client {
+        margin-left: 0rem;
+    }
+    
+    
+    .client6 > .text__client {
+        margin-left: 14rem;
+    }
+    
+    
+
+    .client {
+        height: 9rem;
+        width: 38rem;
+        background-color:#fff;
+        display: flex;
+        border-radius: 10px;
+        margin-bottom: 5rem;
+    }
+
+
+
+  }
+  
+
+
+
+
+  @media screen and (max-width: 768px){
+    
+
+    
+    .client{
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+        
+    #head__client {
+        height: 20vh;
+        width: 100%;
+        background-size: auto;
+        margin-top: 55vh;
+    }
+
+    #head__client h1 {
+        font-size: 2rem;
+        padding-top: 7vh;
+    }
+    
+    .img__position {
+        margin-left: 1rem;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+
+    .client:nth-child(even) {
+        text-align: center;
+        float: none;
+        background-color: #fff;
+        text-align: right;
+    }
+        
+
+
+
+    #client__section {
+        height: auto;
+        width: 100%;
+        padding: 5rem 0 2rem 0;
+    }
+
+
+    .client2  .text__client {
+        margin-left: 29%;
+    }
+
+
+    .client6  .text__client {
+        margin-left: 35%;
+    }
+
+    .client {
+        height: 7rem;
+        width: 20rem;
+        background-color:#fff;
+        display: flex;
+        border-radius: 10px;
+        margin-bottom: 3rem;
+        text-align: left;
+    }
+
+
+
+
+
+
+
+
+
+        
+    .client:nth-child(even) .shape {
+        justify-content: right;
+        text-align: right;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .shape {
+        height: 80px;
+        width: 80px;
+        padding: 15px;
+    }
+
+
+    .imgnya__client {
+        height: 50px;
+        width: 50px;
+       
+    }
+
+
+    .text__client {
+        margin: auto 0 ;
+        margin-left: 1rem;
+        color: #202020;
+    }
+
+    .text__client .title_client {
+        font-size: 0.8rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .title_client{
+        font-size: 2rem;
+        padding: -6px 0 ;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .text__client .paragraf:nth-child(1) {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+    }
+
+    .text__client .paragraf:nth-last-child(1) {
+        font-size: 10px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+
+
+  }
+
+
+/* 
+
+
+.client1 {
+    background-color: #005ab4 ;
+}
+
+.client2 {
+    background-color: #af7200 ;
+}
+
+.client3 {
+    background-color: #00a800 ;
+}
+
+.client4 {
+    background-color: #b3b300 ;
+}
+
+.client5 {
+    background-color: #880000 ;
+}
+
+.client6 {
+    background-color: 	#006a8d;
+}
+
+.client7 {
+    background-color: #913c00;
+} */
+
+
+
+
+/* 
+@media (min-width: 1080px) {
+
+
+
+
+    #head__client {
+        height: 15vh;
+        width: 100%;
+        background-image: url(/folder/img/client2/bgclient.jpg);
+        background-position: right;
+        filter: brightness(105%);
+        background-size: unset;
+        justify-content: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #head__client h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 2rem;
+        color: #fff;
+        padding-top: 7vh;
+    }
+    
+    
+    
+    #client__section {
+        height: 165vh;
+        width: 100%;
+        background-image: url(/folderimg/client/bgclient.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 7rem 2rem;
+    }
+    
+    
+    .img__position {
+        margin-left: 2.5rem;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    
+    
+    .client:nth-child(even) > .img__position {
+        order: 2;
+        margin-left: 0rem;
+    }
+    
+    .client2 > .text {
+        margin-left: 13rem;
+    }
+
+    .client4 > .img__position {
+        margin-right: 0.5rem;
+    }
+    
+    
+    .client6 > .text {
+        margin-left: 13rem;
+    }
+    
+    
+
+    .client {
+        height: 9rem;
+        width: 38rem;
+        background-color:#fff;
+        display: flex;
+        border-radius: 10px;
+        margin-bottom: 5rem;
+    }
+
+
+
+}  */

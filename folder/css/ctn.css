@@ -1,0 +1,600 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#h__section__ctn {
+    width: 100%;
+    height: 25vh;
+    background-color: #202020;
+    justify-content: center;
+}
+
+
+#h__section__ctn h1 {
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 5% 0 0 0;
+    font-size: 2rem;
+}
+
+
+#main__section__ctn {
+    height: 120vh;
+    width: 100%;
+    background-color: #202020;
+}
+
+.sect__ctn {
+    border-top: 1px gray solid;
+    height: 40vh;
+    width: 100%;
+    background-color: #fff;
+    background-position: center;
+    transition: all 0.4s ease;
+}
+
+.cover__ctn {
+    height: 40vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    display: none;
+}
+
+.h1__ctn {
+    font-family: sans-serif;
+    font-size: 3rem;
+    padding-left: 4rem;
+    padding-top: 7rem;
+    position: relative;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+
+.h1__ctn::after {
+    content: '';
+    display: none;
+    height: 3px;
+    width: 18rem;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+
+.p__ctn {
+    display:none ;
+    padding-left: 4rem;
+    font-size: 1rem;
+    color: #fff;
+    font-family:  'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    margin-top: 15px;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+
+
+/*//////////////////////////////////////////////////////*/
+
+
+.bagian1:hover {
+    background-image: url(/folder/img/ctn/phone.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bagian1:hover .cv1__ctn {
+    display: block;
+}
+
+.bagian1:hover .h1__ctn {
+    color: #F5F5F5;
+    padding-top: 4rem;
+}
+
+.bagian1:hover .h1__ctn::after {
+    display: block;
+}
+
+.bagian1:hover .p__ctn {
+    display: block;
+}
+
+/*//////////////////////////////////////////////////////*/
+
+
+.bagian2:hover {
+    background-image: url(/folder/img/ctn/email.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bagian2:hover .cv2__ctn {
+    display: block;
+}
+
+.bagian2:hover .h12__ctn {
+    color: #F5F5F5;
+    padding-top: 4rem;
+}
+
+.bagian2:hover .h12__ctn::after {
+    display: block;
+}
+
+.bagian2:hover .p2__ctn {
+    display: block;
+}
+
+
+/*//////////////////////////////////////////////////////*/
+
+
+.bagian3:hover {
+    background-image: url(/folder/img/ctn/wa.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bagian3:hover .cv3__ctn {
+    display: block;
+}
+
+.bagian3:hover .h13__ctn {
+    color: #F5F5F5;
+    padding-top: 4rem;
+}
+
+.bagian3:hover .h13__ctn::after {
+    display: block;
+}
+
+.bagian3:hover .p3__ctn {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+@media (max-width: 640px) {
+        
+    #h__section__ctn {
+        height: 10rem;
+        background-color: #fff;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        overflow: hidden;
+    }
+
+        
+    #h__section__ctn h1 {
+        color: black;
+        text-align: center;
+        font-size: 1.5rem;
+        padding-top: 4rem;
+    }
+
+        
+    #main__section__ctn {
+        height: 20vh;
+        width: 100%;
+        background-color: greenyellow;
+    }
+
+        
+    .sect__ctn {
+        height: 25vh;
+        width: 100%;
+        background-color: #fff;
+        background-position: center;
+        transition: all 0.4s ease;
+    }
+
+    .cover__ctn {
+        display: none;
+        height: 25vh;
+        width: 100%;
+    }
+
+        
+    .h1__ctn {
+        font-size: 1.5rem;
+        padding-left: 20px;
+        margin-top: -8%;
+        position: relative;
+        padding-left: 1rem;
+    }
+
+        
+    .h1__ctn::after {
+        height: 2px;
+        width: 10rem;
+        margin-top: 10px;
+    }
+
+
+        
+    .p__ctn {
+        padding-left: 20px;
+        font-size: 9px;
+        color: #fff;
+        width: 250px;
+        padding-left: 1rem;
+    }
+
+
+
+
+        
+    ///////////////////////////////////////////////////////
+
+
+    .bagian1:hover .h1__ctn {
+        color: #F5F5F5;
+        margin-top: -5%;
+    }
+    
+
+    ///////////////////////////////////////////////////////
+
+
+    
+    .bagian2:hover .h12__ctn {
+        color: #F5F5F5;
+        margin-top: -5%;
+    }
+    
+
+    ///////////////////////////////////////////////////////
+
+
+    .bagian3:hover .h13__ctn {
+        color: #F5F5F5;
+        margin-top: -5%;
+    }
+
+}
+
+ */
+
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+@media screen and (max-width: 1060px){
+    
+
+    
+#h__section__ctn {
+    width: 100%;
+    height: 20vh;
+    background-color: #202020;
+    justify-content: center;
+}
+
+
+#h__section__ctn h1 {
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10% 0 0 0;
+    font-size: 3rem;
+}
+
+
+#main__section__ctn {
+    height: auto;
+    width: 100%;
+    background-color: #202020;
+}
+
+.sect__ctn {
+    border-top: 1px gray solid;
+    height: 30vh;
+    width: 100%;
+    background-color: #fff;
+    background-position: center;
+    transition: all 0.4s ease;
+}
+
+.cover__ctn {
+    height: 30vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    display: none;
+}
+
+.h1__ctn {
+    font-family: sans-serif;
+    font-size: 3rem;
+    padding-left: 4rem;
+    padding-top: 18%;
+    position: relative;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+
+.h1__ctn::after {
+    content: '';
+    display: none;
+    height: 3px;
+    width: 18rem;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+
+.p__ctn {
+    display:none ;
+    padding-left: 4rem;
+    font-size: 1rem;
+    color: #fff;
+    font-family:  'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    margin-top: 15px;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+
+
+/*//////////////////////////////////////////////////////*/
+
+
+.bagian1:hover .h1__ctn {
+    color: #F5F5F5;
+    padding-top: 15%;
+}
+
+
+/*//////////////////////////////////////////////////////*/
+
+
+
+.bagian2:hover .h12__ctn {
+    color: #F5F5F5;
+    padding-top: 15%;
+}
+
+
+
+/*//////////////////////////////////////////////////////*/
+
+
+.bagian3:hover .h13__ctn {
+    color: #F5F5F5;
+    padding-top: 15%;
+}
+
+
+
+
+  }
+
+  @media screen and (max-width: 768px){
+    
+
+    
+    #h__section__ctn {
+        height: 10rem;
+        background-color: #202020;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        overflow: hidden;
+    }
+
+        
+    #h__section__ctn h1 {
+        color: #fff;
+        text-align: center;
+        font-size: 1.5rem;
+        padding-top: 4rem;
+    }
+
+        
+    #main__section__ctn {
+        height: 20vh;
+        width: 100%;
+        background-color: #202020;
+    }
+
+        
+    .sect__ctn {
+        height: 25vh;
+        width: 100%;
+        background-color: #fff;
+        background-position: center;
+        transition: all 0.4s ease;
+    }
+
+    .cover__ctn {
+        display: none;
+        height: 25vh;
+        width: 100%;
+    }
+
+        
+    .h1__ctn {
+        font-size: 1.5rem;
+        padding-left: 20px;
+        margin-top: 0%;
+        position: relative;
+        padding-left: 1rem;
+    }
+
+        
+    .h1__ctn::after {
+        height: 2px;
+        width: 10rem;
+        margin-top: 10px;
+    }
+
+
+        
+    .p__ctn {
+        padding-left: 20px;
+        font-size: 9px;
+        color: #fff;
+        width: 250px;
+        padding-left: 1rem;
+    }
+
+
+
+
+        
+    /*//////////////////////////////////////////////////////*/
+
+
+    .bagian1:hover .h1__ctn {
+        color: #F5F5F5;
+        margin-top: -5%;
+    }
+    
+
+    /*//////////////////////////////////////////////////////*/
+
+
+    
+    .bagian2:hover .h12__ctn {
+        color: #F5F5F5;
+        margin-top: -5%;
+    }
+    
+
+    /*//////////////////////////////////////////////////////*/
+
+
+    .bagian3:hover .h13__ctn {
+        color: #F5F5F5;
+        margin-top: -5%;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+
+@media (max-width: 991px) {
+
+
+    #main__section {
+        height: 105.5vh;
+        width: 100%;
+        background-color: greenyellow;
+        }
+        
+    .heading__section {
+        width: 100%;
+        height: 22vh;
+    }
+
+
+    .heading__section h1 {
+        padding: 8vh;
+        font-size: 2.5rem;
+    }
+
+
+    .sect {
+        height: 35vh;
+        width: 100%;
+        background-color: #fff;
+        background-position: center;
+        transition: all 0.4s ease;
+    }
+
+
+    .cover {
+        height: 35vh;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        display: none;
+    }
+
+
+    .h1 {
+        font-family: sans-serif;
+        font-size: 3rem;
+        padding-left: 4rem;
+        padding-top: 11rem;
+        position: relative;
+        -webkit-transition: 0.5s ease;
+        transition: 0.5s ease;
+    }
+
+
+    //////////////////////////////////////////////////////
+
+    .bagian1:hover .h1 {
+        color: #F5F5F5;
+        padding-top: 9rem;
+    }
+
+
+    ///////////////////////////////////////////////////////
+
+    .bagian2:hover .h1 {
+        color: #F5F5F5;
+        padding-top: 9rem;
+    }
+
+
+    ///////////////////////////////////////////////////////
+
+    .bagian3:hover .h1 {
+        color: #F5F5F5;
+        padding-top: 9rem;
+    }
+
+
+}
+
+ */
