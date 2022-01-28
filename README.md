@@ -1,2 +1,2 @@
 # Web-Gana-IT-Consultant
-first project web magang Gana IT Consultant Company
+Gana IT Consultant Company Profile Website
